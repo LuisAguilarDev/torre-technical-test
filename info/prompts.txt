@@ -1,0 +1,5 @@
+Ask the LLM
+Tool: ChatGPT
+Model: o4-mini-high
+Prompt: Si tienes toda la informacion laboral de las personas y sus habilidades que ideas impactantes se te ocurren para una pagina web dame muchas ideas
+
