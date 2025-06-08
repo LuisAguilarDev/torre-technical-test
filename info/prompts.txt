@@ -3,3 +3,94 @@ Tool: ChatGPT
 Model: o4-mini-high
 Prompt: Si tienes toda la informacion laboral de las personas y sus habilidades que ideas impactantes se te ocurren para una pagina web dame muchas ideas
 
+Ask the LLM
+Tool: ChatGPT
+Model: o4-mini-high
+Prompt: crea este componente search dinamico para react esta es la paleta de colores @import "tailwindcss";
+
+@theme {
+  --color-background-0: #000;
+  --color-background-05: #1c1d1f;
+  --color-background-1: #27292d;
+  --color-background-2: #383b40;
+  --color-background-3: #5e626b;
+  --color-text-primary: rgba(255, 255, 255, 0.9);
+  --color-text-accent: rgba(255, 255, 255, 0.65);
+  --color-text-disabled: rgba(255, 255, 255, 0.38);
+  --color-warning: #ffd54f;
+  --color-error: #cf6679;
+  --color-error-elevated: #ff8a8a;
+  --color-brand: #cddc39;
+  --color-disabled: rgba(255, 255, 255, 0.12);
+  --color-badge: #ef5350;
+  --color-scrollbar: hsla(0, 0%, 100%, 0.25);
+  --color-scrollbar-background: rgba(0, 0, 0, 0.3);
+  --color-tooltip: #a9a9a9;
+  --color-divider: #5e626b;
+  --color-scrollbar-background-on-background-0: rgba(0, 0, 0, 0.3);
+  --color-scrollbar-on-background-0: hsla(0, 0%, 100%, 0.25);
+  --color-text-primary-on-accent: rgba(0, 0, 0, 0.9);
+  --color-text-primary-on-background-0: rgba(255, 255, 255, 0.9);
+  --color-text-accent-on-background-0: rgba(255, 255, 255, 0.65);
+  --color-text-disabled-on-background-0: rgba(255, 255, 255, 0.38);
+  --color-text-primary-on-background-05: rgba(255, 255, 255, 0.9);
+  --color-text-accent-on-background-05: rgba(255, 255, 255, 0.65);
+  --color-text-disabled-on-background-05: rgba(255, 255, 255, 0.38);
+  --color-text-primary-on-background-1: rgba(255, 255, 255, 0.9);
+  --color-text-accent-on-background-1: rgba(255, 255, 255, 0.65);
+  --color-text-disabled-on-background-1: rgba(255, 255, 255, 0.38);
+  --color-text-primary-on-background-2: rgba(255, 255, 255, 0.9);
+  --color-text-accent-on-background-2: rgba(255, 255, 255, 0.65);
+  --color-text-disabled-on-background-2: rgba(255, 255, 255, 0.38);
+  --color-text-primary-on-background-3: rgba(255, 255, 255, 0.9);
+  --color-text-accent-on-background-3: rgba(255, 255, 255, 0.65);
+  --color-text-disabled-on-background-3: rgba(255, 255, 255, 0.38);
+  --color-text-primary-on-warning: rgba(0, 0, 0, 0.9);
+  --color-text-accent-on-warning: rgba(0, 0, 0, 0.65);
+  --color-text-disabled-on-warning: rgba(0, 0, 0, 0.38);
+  --color-text-primary-on-error: rgba(255, 255, 255, 0.9);
+  --color-text-accent-on-error: rgba(255, 255, 255, 0.65);
+  --color-text-disabled-on-error: rgba(255, 255, 255, 0.38);
+  --color-text-primary-on-error-elevated: rgba(0, 0, 0, 0.9);
+  --color-text-accent-on-error-elevated: rgba(0, 0, 0, 0.65);
+  --color-text-disabled-on-error-elevated: rgba(0, 0, 0, 0.38);
+  --color-text-primary-on-tooltip: rgba(0, 0, 0, 0.9);
+  --color-text-accent-on-tooltip: rgba(0, 0, 0, 0.65);
+  --color-text-disabled-on-tooltip: rgba(0, 0, 0, 0.38);
+  --color-text-primary-on-brand: rgba(0, 0, 0, 0.9);
+  --color-text-accent-on-brand: rgba(0, 0, 0, 0.65);
+  --color-text-disabled-on-brand: rgba(0, 0, 0, 0.38);
+}  puedes usar las propiedades como colores dentreo de tailwind como text-text-primary text-error
+
+Ask the LLM
+Tool: ChatGPT
+Model: o4-mini-high
+Prompt: add debounce to the handle change of 300ms
+
+Ask the LLM
+Tool: ChatGPT
+Model: o4-mini-high
+Prompt: build a card component to render all this user data the show the most impacfull one like imageUrl etc "[{
+    "ardaId": 18163,
+    "ggId": "13",
+    "name": "Alexander Torrenegra",
+    "comparableName": "alexander torrenegra",
+    "username": "torrenegra",
+    "professionalHeadline": "CEO @ Torre.ai. Mod of the /nearshore and /remoto subtorres.",
+    "imageUrl": "https://res.cloudinary.com/torre-technologies-co/image/upload/c_fill,h_150,w_150/v0/origin/starrgate/users/profile_bd307a3ec329e10a2cff8fb87480823da114f8f4.jpg",
+    "completion": 0.875,
+    "grammar": 0.92412,
+    "weight": 24246.9459,
+    "verified": true,
+    "connections": [],
+    "totalStrength": 0.0,
+    "pageRank": 10962.026872362672,
+    "organizationId": null,
+    "organizationNumericId": null,
+    "publicId": null,
+    "status": null,
+    "creators": [],
+    "relationDegree": 1,
+    "isSearchable": true,
+    "contact": false
+}]
