@@ -94,3 +94,526 @@ Prompt: build a card component to render all this user data the show the most im
     "isSearchable": true,
     "contact": false
 }]
+
+Ask the LLM
+Tool: ChatGPT
+Model: o4-mini-high
+Prompt: Quiero un copy para el home en la pagina te podras conecar con compañeros de trabajo pero quiero un copy mas llamativo que active un CTA que haga usar la barra de busqueda
+
+Ask the LLM
+Tool: ChatGPT
+Model: o4-mini-high
+Prompt: Im having some issues with gsap on switching the main component, react-dom_client.js?v=22d1275a:13969 Uncaught NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (react-dom_client.js?v=22d1275a:13969:24)
+    at runWithFiberInDEV (react-dom_client.js?v=22d1275a:1485:72)
+    at commitDeletionEffectsOnFiber (react-dom_client.js?v=22d1275a:9192:19)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9355:13)
+    at commitMutationEffectsOnFiber (react-dom_client.js?v=22d1275a:9502:13)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9365:13)
+    at commitMutationEffectsOnFiber (react-dom_client.js?v=22d1275a:9502:13)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9365:13)
+    at commitMutationEffectsOnFiber (react-dom_client.js?v=22d1275a:9502:13)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9365:13)
+removeChild @ react-dom_client.js?v=22d1275a:13969
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+commitDeletionEffectsOnFiber @ react-dom_client.js?v=22d1275a:9192
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9355
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9551
+flushMutationEffects @ react-dom_client.js?v=22d1275a:11098
+commitRoot @ react-dom_client.js?v=22d1275a:11079
+commitRootWhenReady @ react-dom_client.js?v=22d1275a:10512
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10457
+performSyncWorkOnRoot @ react-dom_client.js?v=22d1275a:11635
+flushSyncWorkAcrossRoots_impl @ react-dom_client.js?v=22d1275a:11536
+processRootScheduleInMicrotask @ react-dom_client.js?v=22d1275a:11558
+(anonymous) @ react-dom_client.js?v=22d1275a:11649
+<p>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+Home @ Home.tsx:39
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<Home>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+App @ App.tsx:10
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<App>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+(anonymous) @ main.tsx:10
+Home.tsx:39 An error occurred in the <Text> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+defaultOnUncaughtError @ react-dom_client.js?v=22d1275a:6229
+logUncaughtError @ react-dom_client.js?v=22d1275a:6283
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+lane.callback @ react-dom_client.js?v=22d1275a:6311
+callCallback @ react-dom_client.js?v=22d1275a:4097
+commitCallbacks @ react-dom_client.js?v=22d1275a:4109
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1487
+commitLayoutEffectOnFiber @ react-dom_client.js?v=22d1275a:9029
+flushLayoutEffects @ react-dom_client.js?v=22d1275a:11174
+commitRoot @ react-dom_client.js?v=22d1275a:11080
+commitRootWhenReady @ react-dom_client.js?v=22d1275a:10512
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10457
+performSyncWorkOnRoot @ react-dom_client.js?v=22d1275a:11635
+flushSyncWorkAcrossRoots_impl @ react-dom_client.js?v=22d1275a:11536
+processRootScheduleInMicrotask @ react-dom_client.js?v=22d1275a:11558
+(anonymous) @ react-dom_client.js?v=22d1275a:11649
+<p>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+Home @ Home.tsx:39
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<Home>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+App @ App.tsx:10
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<App>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+(anonymous) @ main.tsx:10
+react-dom_client.js?v=22d1275a:13969 Uncaught NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (react-dom_client.js?v=22d1275a:13969:24)
+    at runWithFiberInDEV (react-dom_client.js?v=22d1275a:1485:72)
+    at commitDeletionEffectsOnFiber (react-dom_client.js?v=22d1275a:9192:19)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9355:13)
+    at commitMutationEffectsOnFiber (react-dom_client.js?v=22d1275a:9502:13)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9365:13)
+    at commitMutationEffectsOnFiber (react-dom_client.js?v=22d1275a:9502:13)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9365:13)
+    at commitMutationEffectsOnFiber (react-dom_client.js?v=22d1275a:9502:13)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9365:13)
+removeChild @ react-dom_client.js?v=22d1275a:13969
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+commitDeletionEffectsOnFiber @ react-dom_client.js?v=22d1275a:9192
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9355
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9551
+flushMutationEffects @ react-dom_client.js?v=22d1275a:11098
+commitRoot @ react-dom_client.js?v=22d1275a:11079
+commitRootWhenReady @ react-dom_client.js?v=22d1275a:10512
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10457
+performSyncWorkOnRoot @ react-dom_client.js?v=22d1275a:11635
+flushSyncWorkAcrossRoots_impl @ react-dom_client.js?v=22d1275a:11536
+processRootScheduleInMicrotask @ react-dom_client.js?v=22d1275a:11558
+(anonymous) @ react-dom_client.js?v=22d1275a:11649
+<p>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+Home @ Home.tsx:39
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<Home>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+App @ App.tsx:10
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<App>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+(anonymous) @ main.tsx:10
+Home.tsx:39 An error occurred in the <Text> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+defaultOnUncaughtError @ react-dom_client.js?v=22d1275a:6229
+logUncaughtError @ react-dom_client.js?v=22d1275a:6283
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+lane.callback @ react-dom_client.js?v=22d1275a:6311
+callCallback @ react-dom_client.js?v=22d1275a:4097
+commitCallbacks @ react-dom_client.js?v=22d1275a:4109
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1487
+commitLayoutEffectOnFiber @ react-dom_client.js?v=22d1275a:9029
+flushLayoutEffects @ react-dom_client.js?v=22d1275a:11174
+commitRoot @ react-dom_client.js?v=22d1275a:11080
+commitRootWhenReady @ react-dom_client.js?v=22d1275a:10512
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10457
+performSyncWorkOnRoot @ react-dom_client.js?v=22d1275a:11635
+flushSyncWorkAcrossRoots_impl @ react-dom_client.js?v=22d1275a:11536
+processRootScheduleInMicrotask @ react-dom_client.js?v=22d1275a:11558
+(anonymous) @ react-dom_client.js?v=22d1275a:11649
+<p>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+Home @ Home.tsx:39
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<Home>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+App @ App.tsx:10
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<App>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+(anonymous) @ main.tsx:10
+react-dom_client.js?v=22d1275a:13969 Uncaught NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (react-dom_client.js?v=22d1275a:13969:24)
+    at runWithFiberInDEV (react-dom_client.js?v=22d1275a:1485:72)
+    at commitDeletionEffectsOnFiber (react-dom_client.js?v=22d1275a:9192:19)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9355:13)
+    at commitMutationEffectsOnFiber (react-dom_client.js?v=22d1275a:9502:13)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9365:13)
+    at commitMutationEffectsOnFiber (react-dom_client.js?v=22d1275a:9502:13)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9365:13)
+    at commitMutationEffectsOnFiber (react-dom_client.js?v=22d1275a:9502:13)
+    at recursivelyTraverseMutationEffects (react-dom_client.js?v=22d1275a:9365:13)
+removeChild @ react-dom_client.js?v=22d1275a:13969
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+commitDeletionEffectsOnFiber @ react-dom_client.js?v=22d1275a:9192
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9355
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9502
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9374
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9655
+recursivelyTraverseMutationEffects @ react-dom_client.js?v=22d1275a:9365
+commitMutationEffectsOnFiber @ react-dom_client.js?v=22d1275a:9551
+flushMutationEffects @ react-dom_client.js?v=22d1275a:11098
+commitRoot @ react-dom_client.js?v=22d1275a:11079
+commitRootWhenReady @ react-dom_client.js?v=22d1275a:10512
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10457
+performSyncWorkOnRoot @ react-dom_client.js?v=22d1275a:11635
+flushSyncWorkAcrossRoots_impl @ react-dom_client.js?v=22d1275a:11536
+processRootScheduleInMicrotask @ react-dom_client.js?v=22d1275a:11558
+(anonymous) @ react-dom_client.js?v=22d1275a:11649
+<p>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+Home @ Home.tsx:39
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<Home>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+App @ App.tsx:10
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<App>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+(anonymous) @ main.tsx:10
+Home.tsx:39 An error occurred in the <Text> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+defaultOnUncaughtError @ react-dom_client.js?v=22d1275a:6229
+logUncaughtError @ react-dom_client.js?v=22d1275a:6283
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+lane.callback @ react-dom_client.js?v=22d1275a:6311
+callCallback @ react-dom_client.js?v=22d1275a:4097
+commitCallbacks @ react-dom_client.js?v=22d1275a:4109
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1487
+commitLayoutEffectOnFiber @ react-dom_client.js?v=22d1275a:9029
+flushLayoutEffects @ react-dom_client.js?v=22d1275a:11174
+commitRoot @ react-dom_client.js?v=22d1275a:11080
+commitRootWhenReady @ react-dom_client.js?v=22d1275a:10512
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10457
+performSyncWorkOnRoot @ react-dom_client.js?v=22d1275a:11635
+flushSyncWorkAcrossRoots_impl @ react-dom_client.js?v=22d1275a:11536
+processRootScheduleInMicrotask @ react-dom_client.js?v=22d1275a:11558
+(anonymous) @ react-dom_client.js?v=22d1275a:11649
+<p>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+Home @ Home.tsx:39
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<Home>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+App @ App.tsx:10
+react-stack-bottom-frame @ react-dom_client.js?v=22d1275a:17424
+renderWithHooksAgain @ react-dom_client.js?v=22d1275a:4281
+renderWithHooks @ react-dom_client.js?v=22d1275a:4217
+updateFunctionComponent @ react-dom_client.js?v=22d1275a:6619
+beginWork @ react-dom_client.js?v=22d1275a:7654
+runWithFiberInDEV @ react-dom_client.js?v=22d1275a:1485
+performUnitOfWork @ react-dom_client.js?v=22d1275a:10868
+workLoopSync @ react-dom_client.js?v=22d1275a:10728
+renderRootSync @ react-dom_client.js?v=22d1275a:10711
+performWorkOnRoot @ react-dom_client.js?v=22d1275a:10330
+performWorkOnRootViaSchedulerTask @ react-dom_client.js?v=22d1275a:11623
+performWorkUntilDeadline @ react-dom_client.js?v=22d1275a:36
+<App>
+exports.jsxDEV @ react_jsx-dev-runtime.js?v=22d1275a:250
+(anonymous) @ main.tsx:10
+please look for gsap error to solve this error from console this is the component:
+import { useEffect, useState } from "react";
+import gsap from "gsap";
+import UserCard from "../components/UserCard";
+import { useStore } from "../stores/useStore";
+import { SplitText } from "gsap/all";
+gsap.registerPlugin(SplitText);
+const Home = () => {
+  const usersArdaTorre = useStore((state) => state.usersArdaTorre);
+  const searched = useStore((state) => state.searched);
+  const total = usersArdaTorre.length;
+  const [split, setSplit] = useState<SplitText | null>(null);
+  useEffect(() => {
+    if (!searched) {
+      const el = document.querySelector(".text");
+      if (!el) return;
+      const split = new SplitText(el, { type: "words" });
+      setSplit(split);
+      gsap.from(split.words, {
+        y: 5,
+        duration: 1,
+        stagger: 0.1,
+        autoAlpha: 0,
+        filter: "blur(10px)",
+      });
+    }
+    return () => {
+      try {
+        split?.revert();
+      } catch (e) {
+        console.warn("SplitText revert error:", e);
+      }
+    };
+  }, []);
+
+  return (
+    <div className="max-w-[1080px] h-full mx-auto py-6 flex flex-col gap-4 items-center mt-40">
+      {!searched ? (
+        <div className="w-full flex flex-col gap-4 items-center justify-center mx-auto">
+          <p className="text text-4xl w-[65ch]">
+            El mundo laboral ahora es global, y en{" "}
+            <span className="text-brand font-semibold">Torre</span>,
+            <br /> lo hacemos personal. Tu network profesional empieza aquí.
+            <br />
+            <br />
+            Escribe un nombre y re-conecta.
+          </p>
+        </div>
+      ) : (
+        <div className="flex flex-col gap-4">
+          {usersArdaTorre.length > 0 ? (
+            <>
+              <p>Coincidencias encontradas en Torre: {total} profesionales.</p>
+              {usersArdaTorre.map((user) => {
+                return <UserCard key={user.ardaId} user={user} />;
+              })}
+            </>
+          ) : (
+            "No encontramos resultados por ahora. ¿Probamos con otra búsqueda?"
+          )}
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Home;

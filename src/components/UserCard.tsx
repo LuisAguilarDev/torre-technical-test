@@ -6,7 +6,7 @@ type Props = {
 
 const UserCard = ({ user }: Props) => {
   return (
-    <div className="bg-background-1 text-text-primary rounded-xl shadow-lg p-4 flex items-center gap-4 border border-divider">
+    <div className="bg-background-1 text-text-primary rounded-xl shadow-lg p-4 flex items-center gap-4 border border-divider max-w-[900px]">
       <img
         src={user.imageUrl || "https://placehold.co/150x150?text=No+Image"}
         alt={user.name}

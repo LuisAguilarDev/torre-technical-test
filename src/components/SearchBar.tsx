@@ -24,7 +24,7 @@ const SearchBar = ({ onSearch }: { onSearch: (value: string) => void }) => {
       <FaUser className="text-text-accent mr-2" />
       <input
         type="text"
-        placeholder="Busca personas por nombre o correo electrónico"
+        placeholder="Conecta por nombre o correo"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         className="w-full bg-transparent outline-none text-text-primary placeholder-text-accent"
