@@ -617,3 +617,101 @@ const Home = () => {
 };
 
 export default Home;
+
+Ask the LLM
+Tool: ChatGPT
+Model: o4-mini-high
+Prompt: Describe to the detail the functionallity of a platform that shows skills gap between two users, or how to reach a role from ur start based on other users, also describe how the data should look like to the detail
+
+Ask Cursor
+Tool: Cursor
+Model: claude-4-sonnet
+Prompt: Build the page Skill gap:  This is a highly personalized tool that directly addresses the "skill analysis" suggestion in the requirements and shows resourcefulness by integrating outside knowledge. The Concept: A user can compare their own professional "genome" against that of a person they admire or a job description they aspire to. The app highlights the skill gaps and recommends ways to fill them. functionality between two users
+User Selection
+
+A search/self-complete where you choose “User A” and “User B”.
+
+Options to compare against a reference role (e.g. “Senior Front-End” instead of a second user).
+
+Skills Matrix
+
+Table where the rows are the relevant skills (JavaScript, CSS, Scrum, Git, ...) and the columns show:
+
+User Level A (e.g. 3/5)
+
+User Level B (e.g. 5/5)
+
+Difference (e.g. +2, highlighted in red or green)
+
+Graphical Display
+
+Radar Chart: overlays A and B polygons to identify “gaps” visually.
+
+Stacked bars: each skill shows in dark color the level of A and in light color the level of B above.
+
+Training Recommendations
+
+Ordered list of skills where the difference is greatest.
+
+For each skill, links to courses, articles or customized micro-learnings.
+
+“What would User B do?”
+
+B's learning history: shows in what order and when he moved up a level in those skills (e.g. “learned TypeScript in March 2024”).
+
+Ask LLM
+Tool: Gemini
+Model: Gemini-2.5-pro
+Prompt: Mejora las recomendaciones de estudio de este componente y devuelve el nuevo componente mejorado import React from "react";
+import {
+  FiExternalLink,
+  FiBook,
+  FiVideo,
+  FiCode,
+  FiUsers,
+} from "react-icons/fi";
+import type { TrainingRecommendation } from "../types/skillGap.types";
+
+interface TrainingRecommendationsProps {
+  recommendations: TrainingRecommendation[];
+}
+
+const TrainingRecommendations: React.FC<TrainingRecommendationsProps> = () => {
+  return (
+    <div className="space-y-6">
+      <div className=" rounded-lg shadow-sm border p-6">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">
+          Priority Learning Path
+        </h2>
+        <p className="text-gray-600 mb-6">
+          Concéntrate en las habilidades para cerrar primero las brechas más
+          grandes. Ordena los recursos según su efectividad para tu nivel
+          actual.
+        </p>
+        <h3 className="text-lg font-semibold text-blue-900 mb-3">
+          💡 Learning Tips
+        </h3>
+        <ul className="space-y-2 text-blue-800">
+          <li className="flex items-start gap-2">
+            <span className="text-blue-500 mt-1">•</span>
+            <span>Focus on one skill at a time for better retention</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-blue-500 mt-1">•</span>
+            <span>Practice immediately after learning new concepts</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-blue-500 mt-1">•</span>
+            <span>Set weekly goals to track your progress</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-blue-500 mt-1">•</span>
+            <span>Join communities to learn from others</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default TrainingRecommendations;

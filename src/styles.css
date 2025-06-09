@@ -52,4 +52,6 @@
   --color-text-primary-on-brand: rgba(0, 0, 0, 0.9);
   --color-text-accent-on-brand: rgba(0, 0, 0, 0.65);
   --color-text-disabled-on-brand: rgba(0, 0, 0, 0.38);
+  --color-button-enabled: #2196f3;
+  --color-button-disabled: rgba(255, 255, 255, 0.38);
 }

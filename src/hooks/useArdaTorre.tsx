@@ -4,7 +4,7 @@ import type { HistoryResponse } from "../types/apiResponse.types";
 
 export const useArdaTorre = () => {
   const api = axios.create({
-    baseURL: "http://arda.torre.co",
+    baseURL: "https://arda.torre.co",
     headers: {
       "Content-Type": "application/json",
     },

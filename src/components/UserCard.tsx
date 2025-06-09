@@ -25,6 +25,7 @@ const UserCard = ({ user }: Props) => {
             <span className="text-green-400">✔ Verificado</span>
           )}
           {user.pageRank > 1000 && <span>🌟 Influencia alta</span>}
+          <button>Comparar habilidades</button>
         </div>
       </div>
     </div>
