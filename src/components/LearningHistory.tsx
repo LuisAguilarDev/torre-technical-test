@@ -81,7 +81,7 @@ const LearningHistory: React.FC<LearningHistoryProps> = ({ userA, userB }) => {
                                 "_blank"
                               );
                             }}
-                            className="cursor-pointer h-8 px-2 rounded-4xl! font-semibold transition-colors bg-button-enabled hover:bg-cyan-500 text-text-accent-on-brand"
+                            className="cursor-pointer h-8 px-2 rounded-4xl! font-semibold transition-colors bg-button-enabled hover:bg-button-enabled/80 text-text-accent-on-brand"
                           >
                             Aprender ahora!
                           </button>

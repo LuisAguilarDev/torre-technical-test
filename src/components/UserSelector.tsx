@@ -22,6 +22,23 @@ const UserSelector: React.FC<UserSelectorProps> = ({ onCompare }) => {
   const [loadingA, setLoadingA] = useState(false);
   const [loadingB, setLoadingB] = useState(false);
 
+  // Cargar usuario preseleccionado del localStorage al montar el componente
+  useEffect(() => {
+    const preselectedUser = localStorage.getItem("preselectedUser");
+    if (preselectedUser) {
+      try {
+        const user = JSON.parse(preselectedUser) as HistoryResponse;
+        setSelectedUserB(user);
+        setSearchTermB(user.name);
+        // Limpiar el localStorage después de usar
+        localStorage.removeItem("preselectedUser");
+      } catch (error) {
+        console.error("Error parsing preselected user:", error);
+        localStorage.removeItem("preselectedUser");
+      }
+    }
+  }, []);
+
   const { getByName } = useArdaTorre();
 
   const searchUsers = useCallback(async (term: string, isUserA: boolean) => {
@@ -257,7 +274,7 @@ const UserSelector: React.FC<UserSelectorProps> = ({ onCompare }) => {
           disabled={!canCompare}
           className={`cursor-pointer px-2 rounded-4xl! font-semibold transition-colors ${
             canCompare
-              ? "bg-button-enabled hover:bg-cyan-500 text-text-accent-on-brand"
+              ? "bg-button-enabled hover:bg-button-enabled/80 text-text-accent-on-brand"
               : "bg-button-disabled text-text-disabled-on-brand cursor-not-allowed"
           }`}
         >

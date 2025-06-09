@@ -1,3 +1,4 @@
+import { useNavigate, useLocation } from "react-router";
 import type { HistoryResponse } from "../types/apiResponse.types";
 
 type Props = {
@@ -5,6 +6,17 @@ type Props = {
 };
 
 const UserCard = ({ user }: Props) => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleCompareSkills = () => {
+    // Guardar el usuario en localStorage para pre-seleccionarlo en skill-gap
+    localStorage.setItem("preselectedUser", JSON.stringify(user));
+    navigate("/skill-gap");
+  };
+
+  // No mostrar el botón si ya estamos en la página de skill-gap
+  const isInSkillGapPage = location.pathname === "/skill-gap";
   return (
     <div className="bg-background-1 text-text-primary rounded-xl shadow-lg p-4 flex items-center gap-4 border border-divider max-w-[900px]">
       <img
@@ -25,7 +37,14 @@ const UserCard = ({ user }: Props) => {
             <span className="text-green-400">✔ Verificado</span>
           )}
           {user.pageRank > 1000 && <span>🌟 Influencia alta</span>}
-          <button>Comparar habilidades</button>
+          {!isInSkillGapPage && (
+            <button
+              onClick={handleCompareSkills}
+              className="px-3 py-1 bg-button-enabled text-white text-xs rounded-lg hover:bg-button-enabled/80 transition-colors"
+            >
+              Comparar habilidades
+            </button>
+          )}
         </div>
       </div>
     </div>

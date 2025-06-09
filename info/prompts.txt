@@ -715,3 +715,13 @@ const TrainingRecommendations: React.FC<TrainingRecommendationsProps> = () => {
 };
 
 export default TrainingRecommendations;
+
+Ask Cursor
+Tool: Cursor
+Model: claude-4-sonnet
+Prompt: @UserCard.tsx comparar habilidades debe llevar la pagina de skill gap y este usuario ser el usuario a comparar (este seria Selecciona otro profesional) guardalo en el local storage y cargalo en el componente si existe en la ruta el boton debe redirigir al comparar debes borrarlo para que no aparezca sugerido
+
+Ask ChatGPT
+Tool: ChatGPT
+Model: 4o
+Prompt: Ayudame a mejorar el copy principal la pagina se trata sobre validar las skills para mejorar mis oportunidades laborales

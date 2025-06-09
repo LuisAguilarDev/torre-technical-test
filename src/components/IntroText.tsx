@@ -14,7 +14,7 @@ const IntroText = () => {
     gsap.from(split.words, {
       y: 5,
       duration: 1,
-      stagger: 0.1,
+      stagger: 0.08,
       autoAlpha: 0,
       filter: "blur(10px)",
     });
@@ -27,17 +27,17 @@ const IntroText = () => {
       }
     };
   }, []);
-
   return (
     <p className="text text-3xl w-[65ch]">
-      El mundo laboral ahora es global, y en{" "}
-      <span className="text-brand font-semibold">Torre</span>,<br />
-      lo hacemos personal. Tu{" "}
-      <span className="font-semibold">network profesional</span> empieza aquí.
+      Conoce con datos las habilidades que te abrirán puertas.
       <br />
       <br />
-      Escribe un nombre y{" "}
-      <span className="text-brand font-semibold">re-conecta</span>.
+      En <span className="text-brand font-semibold">Torre</span> puedes comparar
+      tu perfil con miles de profesionales en el mercado. Conoce tus Skill Gaps
+      más importantes y toma decisiones informadas sobre tu carrera.
+      <br />
+      <br />
+      Compara tu perfil con el mercado
     </p>
   );
 };
