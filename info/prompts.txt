@@ -725,3 +725,8 @@ Ask ChatGPT
 Tool: ChatGPT
 Model: 4o
 Prompt: Ayudame a mejorar el copy principal la pagina se trata sobre validar las skills para mejorar mis oportunidades laborales
+
+Ask Cursor
+Tool: Cursor
+Model: claude-4-sonnet
+Prompt: @index.js Fix cors error on function deployed in firebase
